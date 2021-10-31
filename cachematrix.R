@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## Functions to create and cache the inverse of a square matrix
+## Final submission
 
 makeCacheMatrix <- function(x = matrix()) {
   ##Function that create the inverse of a squared matrix and cache it

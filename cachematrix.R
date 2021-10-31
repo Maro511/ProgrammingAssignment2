@@ -47,3 +47,9 @@ cacheSolve <- function(x, ...) {
   #return the inverse of the input matrix
   InvM
 }
+
+## Example to test functions
+set.seed(102540)
+SquareM<-matrix((runif(2500, max = 100)), nrow=50, ncol = 50)
+TempSquareM<-makeCacheMatrix(SquareM)
+cacheSolve(TempSquareM)
